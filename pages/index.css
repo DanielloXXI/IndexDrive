@@ -191,14 +191,14 @@
 .certificates__card {
     width: 315px;
     height: 363px;
+    background-color: #D9D9D9;
 }
 
-.certificates__card-image {
+/* .certificates__card-image {
     width: 100%;
     height: 100%;
     background-color: #D9D9D9;
-    /* background-image: url(); */
-}
+} */
 
 .news {
     background-color: black;
