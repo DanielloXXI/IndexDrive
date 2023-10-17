@@ -1,0 +1,90 @@
+@import url(../fonts/fonts.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto';
+    font-weight: normal;
+    line-height: normal;
+    color: black;
+    /* width: 818px;
+    margin: 0 auto 0 auto; */
+}
+
+.borders {
+    width: 91.66%;
+    margin: 0 auto 0 auto;
+    height: 100%;
+}
+
+.header {
+    background-color: black;
+    height: 83px;
+}
+
+.header__links {
+    width: 100%;
+}
+
+.header__nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__link {
+    list-style-type: none;
+    display: inline;
+}
+
+.header__link:nth-child(2) {
+    margin: 0 0 0 4.94%;
+}
+
+.header__link:nth-child(3) {
+    margin: 0 0 0 4.16%;
+}
+
+.header__link-active {
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+form{
+    padding: 2vh 0 0 0;
+    font-size: x-large;
+}
+.form__title{
+    font-size: xx-large;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 0 2vh 0
+}
+.car__photo{
+    width: 100%;
+}
+form p {
+    margin: 3vh 0 3vh 0;
+}
+.form__data{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.client__data img{
+    width: 80px;
+    height: 80px;
+}
+.car_data button{
+    font-size: xx-large;
+    padding: 1vh;
+}
